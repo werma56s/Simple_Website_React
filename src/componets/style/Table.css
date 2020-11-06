@@ -1,0 +1,79 @@
+.Tabela{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+table{
+    border-collapse: collapse;
+    margin: 5%;
+}
+/*tbody {
+    
+  }*/
+tbody tr{
+    box-shadow: 0 5px #888888;
+   /* border-radius: 5px;*/
+}
+tbody tr h4{
+    text-transform:uppercase;
+    font-size: 19px;
+
+}
+tbody tr p{
+    text-align: justify;
+    font-size: 16px;
+}
+tbody tr::before
+{
+  content: '';
+  display: block;
+  height: 30px;
+  
+}
+
+img{
+    height: 300px;
+    float: left;
+    margin: 6px 25px 15px 6px;
+}
+
+tbody tr button{
+    margin-bottom: 10px;
+    float: right;
+}
+table h2{
+    font-size: xxx-large;
+    margin: 10px auto 10px;
+    text-transform:uppercase;
+}
+
+@media screen and (max-width: 760px){
+    .post img{
+        width: 100%;
+    }
+    img{
+        height: 200px;
+        margin: 6px 15px 15px 6px;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    tbody tr h4{
+        text-transform:uppercase;
+        font-weight: 600;
+        font-size: 15px;
+        margin-bottom: 3%;
+    
+    }
+    tbody tr p{
+        text-align: justify;
+        font-size: 15px;
+    }
+    .post img{
+        width: 100%;
+    }
+    img{
+        height: 200px;
+        margin: 6px 15px 10px 6px;
+    }
+}

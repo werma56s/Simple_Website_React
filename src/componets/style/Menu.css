@@ -1,0 +1,59 @@
+/*Menu stylizacja obok siebie */
+.wrapper{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+h1.logo{
+    width: 100px;
+    float: left;
+    padding-left: 1%;
+}
+nav{
+    float: right;
+}
+nav h3{
+    text-indent: -10000px;
+    height: 0;
+    margin: 0;
+}
+nav li{
+    float: left;
+    list-style-type: none;
+    margin: 10px 20px;
+}
+
+nav li:last-child a{
+    font-size: small;
+}
+nav li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 23px;
+}
+nav li a:hover{
+    text-decoration: none;
+    color: rgb(187, 121, 0);
+    font-size: 23px;
+}
+@media screen and (max-width: 480px){
+    h1.logo{
+        margin: auto;
+        float: none;
+    }
+    nav{
+        float: none;
+    }
+    nav ul{
+        margin: 0;
+        padding:0;
+    }
+    nav li{
+        margin: 3px 12px;
+        
+    }
+}
+
+
+
